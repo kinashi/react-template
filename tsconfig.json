@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "types": ["node", "react"],
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "typeRoots": ["./src/@types", "./config/environments/@types"]
+  }
+}
